@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DATEPICKER TAB</title>
+	<link href="css/datepicker.css" rel="stylesheet" type="text/css" href="">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="booking_tab" id="booking_tab">
+				<div class="available_from" id="available_from"><p>Available from <br><span> N30,000 </span> /night</p>
+				</div>
+				<div class="available_options">
+				<div class="row booking_tab_row">
+					<div class="col-md-6">
+						<p>Check In
+						<input type="text" id="checkin" name="checkin"></p>
+						<!-- Hidden_p Line below is for if you want to save the values to a new field. -->
+						<p id="checkin_date" class="hidden_p"></p>
+					</div>
+					
+					
+					<div class="col-md-6">
+						<p>Check Out
+						<input type="text" id="checkout" name="checkout"></p>
+						<p id="checkout_date" class="hidden_p"></p>
+					</div>
+				</div>
+				
+
+				<div class="row booking_tab_row">
+					<div class="col-md-6">
+						<p id="number_of_rooms_text">Choose number of rooms</p>
+						<select id="number_of_rooms">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+						</select>
+						<p id="number_of_rooms_value" class="hidden_p"></p>
+					</div>
+
+					<div class="col-md-6">
+						<p id="number_of_guests_text">Choose number of guests</p>
+						<select id="number_of_guests">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+						</select>
+						<p id="number_of_guests_value" class="hidden_p"></p>
+					</div>
+				</div>
+				<div class="booking_tab_row">
+					<button id="booking_button" class="booking_button">FIND ROOMS AND RATES</button>
+					<p id="number_of_nights"></p>
+				</div>
+				</div>
+			</div>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
