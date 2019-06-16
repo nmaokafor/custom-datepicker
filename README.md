@@ -1,4 +1,4 @@
-# custom-datepicker
+# Custom Datepicker using Jquery.
 A webpage showing how you can select dates from calenders and use it to manupulate behaviour of other elements on your webpage like price, etc..
 
 The tab containing the datepicker is made with html and styled with css.
